@@ -34,4 +34,7 @@
 #
 PostCommit:
   SubmoduleStatus:
-    enabled: true
+      enabled: true
+      description: 'Check submodule status'
+      quiet: false
+      recursive: true
